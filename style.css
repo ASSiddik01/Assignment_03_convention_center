@@ -46,7 +46,7 @@ body{
     border-radius: 25px;
 }
 
-.highlight_price li i.fas {
+.highlight_price li i.fas, .theme_btn {
     color: #fff;
     background-color: #5293f6;
 }
