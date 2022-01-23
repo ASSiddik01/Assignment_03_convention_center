@@ -9,6 +9,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+section{
+    margin: 100px 0;
+}
+
 /* Banner CSS */
 .slider_bg_color{
     background-color: #000;
@@ -21,5 +25,38 @@ body{
     right: 0;
     bottom: 0;
     opacity: .5;
+}
+
+/* Card */
+.card_heading_color{
+    color: #231D4F;
+}
+
+.card_button_bg{
+    background-color: #fef5fa;
+}
+
+.card_list li i.fas {
+    color: #5243C2;
+    background-color: #edecf9;
+}
+
+.highlight_price {
+    top: -40px;
+}
+
+.highlight_price .card {
+    border-radius: 25px;
+}
+
+.highlight_price li i.fas {
+    color: #fff;
+    background-color: #5293f6;
+}
+
+.tag {
+    background: #ff4e4e;
+    top: -17px;
+    right: 20px;
 }
 
