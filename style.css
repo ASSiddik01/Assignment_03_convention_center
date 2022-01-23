@@ -8,3 +8,18 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Banner CSS */
+.slider_bg_color{
+    background-color: #000;
+}
+
+.overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .5;
+}
+
