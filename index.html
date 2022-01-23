@@ -86,7 +86,19 @@
           </div>
     </header>
     <!-- Header End -->
-
+    <div class="row">
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="..." class="rounded me-2" alt="...">
+              <strong class="me-auto">Bootstrap</strong>
+              <small>11 mins ago</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body text-">
+              Hello, world! This is a toast message.
+            </div>
+          </div>
+    </div>
     <!-- Main Start -->
     <main class="container mx-auto">
         <!-- Price Section -->
@@ -140,7 +152,7 @@
                 <div class="col highlight_price position-relative">
                     <div class="card border-0 shadow-lg bg-primary pb-4">
                         <div class="card-body">
-                            <p class="tag position-absolute text-light fw-bold rounded-pill py-1 px-3">Best Selling</p>
+                            <span class="tag position-absolute text-light fw-bold rounded-pill py-1 px-3 top-0 translate-middle">Best Selling</span>
                             <h1 class="card-title text-light">$800</h1>
                             <h3 class="text-capitalize text-light">Wedding plus</h3>
                             <p class="card-text text-light">For most businesses event 
@@ -178,6 +190,48 @@
                 </div>
             </div>
         </section>
+        <!-- Client Sections -->
+        <section class="pt-5 mt-5">
+            <div class="row">
+                <div class="section_title">
+                    <div class="col-lg-12 text-center mb-5">
+                        <h3 class="text-capitalize">Happy Clients says</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col text-center">
+                <div class="card border-0 shadow-lg h-100 p-5">
+                <div class="card-body">
+                    <p class="card-text mb-3 text-secondary">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <img src="images/person 2.png" class="w-50 mb-3 d-block mx-auto card-img-top" alt="...">
+                    <h5 class="card-title mb-3">Regina Miles</h5>
+                    <h5 class="card-title">Banker</h5>
+                </div>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card border-0 shadow-lg h-100 p-5">
+                <div class="card-body">
+                    <p class="card-text mb-3 text-secondary">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <img src="images/person 3.png" class="w-50 mb-3 d-block mx-auto card-img-top" alt="...">
+                    <h5 class="card-title mb-3">Jone Drake</h5>
+                    <h5 class="card-title">Banker</h5>
+                </div>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card border-0 shadow-lg h-100 p-5">
+                <div class="card-body">
+                    <p class="card-text mb-3 text-secondary">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <img src="images/person 1.png" class="w-50 mb-3 d-block mx-auto card-img-top" alt="...">
+                    <h5 class="card-title mb-3">Cret Yater</h5>
+                    <h5 class="card-title">Banker</h5>
+                </div>
+                </div>
+            </div>
+            </div>
+          </section>
         <!-- FAQ Section -->
         <section class="faq_sections pt-5 mt-5">
             <div class="row">
@@ -273,5 +327,7 @@
 
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
 </body>
 </html>
