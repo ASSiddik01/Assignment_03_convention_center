@@ -12,7 +12,10 @@ body{
 
 /* Banner CSS */
 .slider_bg_color{
+    position: relative;
+    z-index: 1;
     background-color: #000;
+
 }
 
 .overlay{
@@ -72,5 +75,8 @@ footer{
     background-color: #e4f5ff;
 }
 
+.carousel-item img {
+    height: 586px;
+}
 
 
