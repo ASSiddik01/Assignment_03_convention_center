@@ -1,33 +1,45 @@
-/* Google Poppins Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
 /* ---------------------
 --------Base CSS--------
 --------------------- */
+
+/* Google Poppins Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
 }
 
-
-/* Banner CSS */
+/* ---------------------
+-------Banner CSS-------
+--------------------- */
 .slider_bg_color{
-    position: relative;
-    z-index: 1;
     background-color: #000;
-
 }
 
 .overlay{
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     opacity: .5;
+    object-fit: cover;
 }
 
-/* Card */
+.slider_bg_color img {
+    height: 586px;
+}
+
+/* ---------------------
+-------Toast CSS-------
+--------------------- */
+.offer{
+    border-left: 8px solid #3f87f5
+}
+
+.offer span i.fas {
+    color: #5eacff;
+}
+
+
+/* ---------------------
+-----Price Sections-----
+--------------------- */
 .card_heading_color{
     color: #231D4F;
 }
@@ -59,24 +71,22 @@ body{
     right: -40px;
 }
 
-footer{
-    background-color: #0B0D17;
-}
 
-.offer{
-    border-left: 8px solid #3f87f5
-}
-
-.offer span i.fas {
-    color: #5eacff;
-}
-
+/* ---------------------
+-----Newsletter CSS-----
+--------------------- */
 .newsletter {
     background-color: #e4f5ff;
 }
 
-.carousel-item img {
-    height: 586px;
+
+/* ---------------------
+-------Footer CSS-------
+--------------------- */
+footer{
+    background-color: #0B0D17;
 }
+
+
 
 
